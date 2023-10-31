@@ -1,9 +1,9 @@
 id: page.codeberg.JakobDev.jdTextEdit
 runtime: org.kde.Sdk
-runtime-version: '6.5'
+runtime-version: '6.6'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: '6.5'
+base-version: '6.6'
 command: jdTextEdit
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
