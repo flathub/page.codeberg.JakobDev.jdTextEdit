@@ -44,8 +44,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/AbiWord/enchant.git
-        tag: v2.6.5
-        commit: 0a516e1c97c5de08a5eff28f58d86016cee4cbcf
+        tag: v2.6.6
+        commit: ea28e1a2b978c3436b4be624f21a069e29fd036a
         x-checker-data:
           type: git
           tag-pattern: v(.+)
