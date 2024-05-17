@@ -1,13 +1,17 @@
 id: page.codeberg.JakobDev.jdTextEdit
 runtime: org.kde.Sdk
-runtime-version: '6.6'
+runtime-version: '6.7'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: '6.6'
+base-version: '6.7'
 command: jdTextEdit
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.vala
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
+  prepend-path: /usr/lib/sdk/vala/bin
+  prepend-ld-library-path: /usr/lib/sdk/vala/lib
   env:
     - BASEAPP_REMOVE_PYWEBENGINE=1
 finish-args:
@@ -19,6 +23,9 @@ finish-args:
   - --socket=cups
   - --device=dri
   - --share=ipc
+cleanup:
+  - /share/doc
+  - /plugins
 
 modules:
   - python3-modules.yaml
@@ -42,13 +49,13 @@ modules:
       - --with-hunspell
       - --with-myspell-dir=/usr/share/hunspell
     sources:
-      - type: git
-        url: https://github.com/AbiWord/enchant.git
-        tag: v2.6.7
-        commit: 8de88dad34841f578caff4e35adef03883609e9b
+      - type: archive
+        url: https://github.com/AbiWord/enchant/releases/download/v2.7.3/enchant-2.7.3.tar.gz
+        sha256: fe6ad4cbe8c71b9384ffdef962be52d4d2bd5ebfb6351435bb390543d4f78b1e
         x-checker-data:
-          type: git
-          tag-pattern: v(.+)
+          type: anitya
+          project-id: 6601
+          url-template: https://github.com/AbiWord/enchant/releases/download/v$version/enchant-$version.tar.gz
     cleanup:
       - /bin
       - /share/man
@@ -59,8 +66,8 @@ modules:
       - python ./install.py --yes --no-deps --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.1.tar.gz
-        sha256: 6b58f16dca6d0b2dbfac15b6ed971b6b83c3298520adf43b59dbfbcb658a80a7
+        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.2.tar.gz
+        sha256: fc66fa2058de33d3d0c1a0c0b6fe7e94a2572e11ac02165e15bee6c03e1206eb
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdTextEdit/releases/latest
