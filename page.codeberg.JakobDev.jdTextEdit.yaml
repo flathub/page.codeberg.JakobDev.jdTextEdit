@@ -44,8 +44,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/AbiWord/enchant.git
-        tag: v2.6.7
-        commit: 8de88dad34841f578caff4e35adef03883609e9b
+        tag: v2.7.3
+        commit: 4caa59d1720cfea20684d5897a6855beb5222c60
         x-checker-data:
           type: git
           tag-pattern: v(.+)
@@ -59,8 +59,8 @@ modules:
       - python ./install.py --yes --no-deps --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.1.tar.gz
-        sha256: 6b58f16dca6d0b2dbfac15b6ed971b6b83c3298520adf43b59dbfbcb658a80a7
+        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.2.tar.gz
+        sha256: fc66fa2058de33d3d0c1a0c0b6fe7e94a2572e11ac02165e15bee6c03e1206eb
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdTextEdit/releases/latest
