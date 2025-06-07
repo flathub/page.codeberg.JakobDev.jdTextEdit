@@ -66,8 +66,8 @@ modules:
       - python ./install.py --yes --no-deps --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.2.tar.gz
-        sha256: fc66fa2058de33d3d0c1a0c0b6fe7e94a2572e11ac02165e15bee6c03e1206eb
+        url: https://codeberg.org/JakobDev/jdTextEdit/archive/11.3.tar.gz
+        sha256: 631fdcaedbfc84d2e5d7a33ca20bac361bfb24de44b0ea75ba7adb7045a346dc
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdTextEdit/releases/latest
