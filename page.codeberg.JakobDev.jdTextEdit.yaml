@@ -73,5 +73,3 @@ modules:
           url: https://codeberg.org/api/v1/repos/JakobDev/jdTextEdit/releases/latest
           version-query: .tag_name
           url-query: .tarball_url
-      - type: patch
-        path: fix-appstream.patch
