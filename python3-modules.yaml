@@ -110,8 +110,8 @@ modules:
         --prefix=${FLATPAK_DEST} "EditorConfig" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/af/e5/8dba39ea24ca3de0e954e668107692f4dfc13a85300a531fa9a39e83fde4/EditorConfig-0.17.0-py3-none-any.whl
-        sha256: fe491719c5f65959ec00b167d07740e7ffec9a3f362038c72b289330b9991dfc
+        url: https://files.pythonhosted.org/packages/96/fd/a40c621ff207f3ce8e484aa0fc8ba4eb6e3ecf52e15b42ba764b457a9550/editorconfig-0.17.1-py3-none-any.whl
+        sha256: 1eda9c2c0db8c16dbd50111b710572a5e6de934e39772de1959d41f64fc17c82
         x-checker-data:
           name: EditorConfig
           packagetype: bdist_wheel
