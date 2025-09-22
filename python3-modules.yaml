@@ -126,8 +126,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pyenchant" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/54/4c/a741dddab6ad96f257d90cb4d23067ffadac526c9cab3a99ca6ce3c05477/pyenchant-3.2.2-py3-none-any.whl
-        sha256: 5facc821ece957208a81423af7d6ec7810dad29697cb0d77aae81e4e11c8e5a6
+        url: https://files.pythonhosted.org/packages/38/b0/35926bad6885fb7bc24aa7e1b45e6d86540c6c57ee4abc4fed1ef58d4ec0/pyenchant-3.3.0-py3-none-any.whl
+        sha256: 3da00b1d01314d85aac733bb997415d7a3e875666dc81735ddcf320aa36b7a70
         x-checker-data:
           name: pyenchant
           packagetype: bdist_wheel
@@ -142,8 +142,8 @@ modules:
         --prefix=${FLATPAK_DEST} "lxml" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/8f/bd/f9d01fd4132d81c6f43ab01983caea69ec9614b913c290a26738431a015d/lxml-6.0.1.tar.gz
-        sha256: 2b3a882ebf27dd026df3801a87cf49ff791336e0f94b0fad195db77e01240690
+        url: https://files.pythonhosted.org/packages/aa/88/262177de60548e5a2bfc46ad28232c9e9cbde697bd94132aeb80364675cb/lxml-6.0.2.tar.gz
+        sha256: cd79f3367bd74b317dda655dc8fcfa304d9eb6e4fb06b7168c5cf27f96e0cd62
         x-checker-data:
           name: lxml
           type: pypi
