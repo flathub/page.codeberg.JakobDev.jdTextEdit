@@ -53,8 +53,8 @@ modules:
         --prefix=${FLATPAK_DEST} "chardet" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/94/d2/22ac0b5b832bb9d2f29311dcded6c09ad0c32c23e3e53a8033aad5eb8652/chardet-7.4.0.post2-py3-none-any.whl
-        sha256: e0c9c6b5c296c0e5197bc8876fcc04d58a6ddfba18399e598ba353aba28b038e
+        url: https://files.pythonhosted.org/packages/82/1e/e61baae08212bd3e4d63b49203e36d75f6bc16062d5ee137b95eb9e6692f/chardet-7.4.1-py3-none-any.whl
+        sha256: 04b9be0d786b9a3bbd7860a82d27e843f22211be51b9b84d85fe8d9864e2f535
         x-checker-data:
           name: chardet
           packagetype: bdist_wheel
