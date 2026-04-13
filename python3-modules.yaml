@@ -53,8 +53,8 @@ modules:
         --prefix=${FLATPAK_DEST} "chardet" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/82/1e/e61baae08212bd3e4d63b49203e36d75f6bc16062d5ee137b95eb9e6692f/chardet-7.4.1-py3-none-any.whl
-        sha256: 04b9be0d786b9a3bbd7860a82d27e843f22211be51b9b84d85fe8d9864e2f535
+        url: https://files.pythonhosted.org/packages/8c/81/7a0cb90b97de02038ef4882776fd643998fe9e78ba7d720c3b04bdaa0eaf/chardet-7.4.2-py3-none-any.whl
+        sha256: 5ca09c5122c111df7edfbe6cd33b1dd96a30fd2874c812f8593ba446eaf9a1a3
         x-checker-data:
           name: chardet
           packagetype: bdist_wheel
@@ -142,8 +142,8 @@ modules:
         --prefix=${FLATPAK_DEST} "lxml" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/43/42/149c7747977db9d68faee960c1a3391eb25e94d4bb677f8e2df8328e4098/lxml-6.0.3.tar.gz
-        sha256: a1664c5139755df44cab3834f4400b331b02205d62d3fdcb1554f63439bf3372
+        url: https://files.pythonhosted.org/packages/ce/08/1217ca4043f55c3c92993b283a7dbfa456a2058d8b57bbb416cc96b6efff/lxml-6.0.4.tar.gz
+        sha256: 4137516be2a90775f99d8ef80ec0283f8d78b5d8bd4630ff20163b72e7e9abf2
         x-checker-data:
           name: lxml
           type: pypi
