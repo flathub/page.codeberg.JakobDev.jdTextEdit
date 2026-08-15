@@ -17,8 +17,8 @@ modules:
           type: pypi
       - &id001
         type: file
-        url: https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz
-        sha256: 673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b
+        url: https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz
+        sha256: 6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3
         x-checker-data:
           name: charset-normalizer
           type: pypi
@@ -53,8 +53,8 @@ modules:
         --prefix=${FLATPAK_DEST} "chardet" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/36/6b/f195e0d66b1e18ccbcc3adc52c1c7e1263203e70b9bbe12c5a4198d1935b/chardet-7.5.1-py3-none-any.whl
-        sha256: ba7e9b6c15b4fcdf07ae675e5116dee610425f9ad6955c9bdb6bf99aed2e555d
+        url: https://files.pythonhosted.org/packages/cf/6e/5a0b348fa4cd7847567a28c6e697ccf58391960bfd13a6e7473ee23ca2f2/chardet-7.6.0-py3-none-any.whl
+        sha256: 4076d795897ce45239825956a1334e134322ecc4bfe84dbb12acd5390de0fbc1
         x-checker-data:
           name: chardet
           packagetype: bdist_wheel
