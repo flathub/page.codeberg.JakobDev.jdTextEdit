@@ -37,8 +37,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl
-        sha256: 9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897
+        url: https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl
+        sha256: 0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3
         x-checker-data:
           name: urllib3
           packagetype: bdist_wheel
@@ -69,8 +69,8 @@ modules:
         --prefix=${FLATPAK_DEST} "cchardet" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
-        sha256: c428b6336545053c2589f6caf24ea32276c6664cb86db817e03a94c60afa0eaf
+        url: https://files.pythonhosted.org/packages/86/80/6b87429533a8a6fc5b970c44a3a844c315c3313377ecc4fb9efeb56a3241/cchardet-2.3.0.tar.gz
+        sha256: e08fade06af9aa4888ad99609a66bbce99ad01c1269c0ea673af75a15a6f762e
         x-checker-data:
           name: cchardet
           type: pypi
