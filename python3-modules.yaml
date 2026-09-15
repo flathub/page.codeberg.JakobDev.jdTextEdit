@@ -69,8 +69,8 @@ modules:
         --prefix=${FLATPAK_DEST} "cchardet" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/a8/5d/090c9f0312b7988a9433246c9cf0b566b1ae1374368cfb8ac897218a4f65/cchardet-2.1.7.tar.gz
-        sha256: c428b6336545053c2589f6caf24ea32276c6664cb86db817e03a94c60afa0eaf
+        url: https://files.pythonhosted.org/packages/d4/56/a1e3257c6addbaa143f7c4db92719c39edebd623260673a58a0e210da390/cchardet-2.2.0.tar.gz
+        sha256: 0f97e48e06e97e5bcea8fb614eacbf147a573bd7608b4e8fa18b315b375f60c1
         x-checker-data:
           name: cchardet
           type: pypi
